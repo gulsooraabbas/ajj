@@ -1,67 +1,293 @@
 *{
-    margin: 0;
-    padding: 0;
-}
-.boxes{
-    background-color: brown;
-    width: 100%;
-    height: 700px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
 
 }
-.box{
-    background-color: rgb(247, 15, 15);
-    width: 95%;
+
+
+.nav-main {
+
+    background-color: #ff5400;
+    width: 100%;
     height: 100px;
-    margin: 0px auto;
+    position: fixed;
+
+}
+
+.niv-1 {
+    color: white;
+}
+
+.niv-2 {
+    color: white;
+    text-decoration: none;
+}
+
+.niv-2:hover {
+    color: bisque;
+}
+
+.sav:hover {
+    color: bisque;
+}
+
+.sav {
+    margin-left: 147px;
+    background-color: rgb(90, 37, 37);
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.log-daraz {
+    padding-top: 20px;
+    
+}
+
+
+.dd {
+    position: absolute;
+    margin-top: 30px;
+    color: #0b0502;
+    background-color: rgb(224, 156, 116);
+    padding: 5px 2px;
+    border-radius: 0px 10px 10px 0px;
+
+
+}
+
+.daro {
+    margin-top: 30px;
+    padding-right: 450px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    border-style: none;
+
+}
+
+.dar {
+    margin-top: 35px;
+    border: none;
+    background: none;
+    color: white;
+
+
+}
+
+.dar:hover {
+    color: #7f153e;
+
+}
+
+.ssv:hover {
+    color: #7f153e;
+
+}
+
+.bbg:hover {
+    color: #7f153e;
+
+}
+
+.ssv {
+    color: white;
+    
+}
+
+.bbg {
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    border: none;
+    margin-right: 60px;
+    background: none;
+
+}
+
+
+
+
+
+
+.main {
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
-    
+
+
 }
-.card{
-    background-color: rgb(235, 227, 227);
-    width: 95%;
-    height: 340px;
-    margin: 0px auto;
-    align-items: center;
+
+.a-link {
+    margin-top: 120px;
+    margin-left: 15vh;
+    margin-right: 2vh;
+    background-color: white;
+    padding: 1px 14px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 1px #95908e;
+
+
+
+
 }
-.cdn
-{
-    width: 100%;
-    height: 30px;
-    background-color: brown;
-}
-.nav5 a{
+
+.a-link a {
     text-decoration: none;
-    font-size: larger;
-    color: white;
-    margin-left: 100PX;
-    gap: 40PX;
-}
-.boy{
-  background-color: red;
-  width: 95%;
-  height: 200px;
-  margin: 0px auto;
-  padding-bottom: 50px;
-}
-.boy h1{
-    text-align: center;
-    padding-top: 50px;
-}
+    color: rgb(119, 113, 113);
+    font-size: 20px;
 
-.boy p{
-    text-align: center;
-    
-}
-.boy img{
-    width: 50px;
-    margin-left: 50%;
-    border-radius: 200%;
-    margin-top: 30px;
+
+
+
+
+
 
 }
 
-.card h1{
-    text-align: center;
-    padding-top: 80px;
+.a-link a:hover {
+    color: #ff5400;
 }
+
+.a-link i:hover {
+    color: #ff5400;
+}
+
+.photos {
+    width: 60%;
+    height: 400px;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-name: ajuu;
+    margin-top: 120px;
+    margin-left: 0vh;
+    margin-right: 28vh;
+    border-radius: 20px;
+    cursor: pointer;
+
+
+}
+
+@keyframes ajuu {
+    0% {
+        background-image: url(https://blog.daraz.pk/wp-content/uploads/2022/12/12-12-KV-1-1024x585.jpg);
+
+    }
+
+    25% {
+        background-image: url(https://i.dawn.com/primary/2020/11/5fad229af3ee1.jpg);
+
+    }
+
+    50% {
+        background-image: url(https://i.ytimg.com/vi/qJHoyRMLFuM/hq720.jpg?sqp=-oaymwExCK4FEIIDSFryq4qpAyMIARUAAIhCGAHwAQH4Af4OgAK4CIoCDAgAEAEYSyBgKGUwDw==&rs=AOn4CLD-GzSL2K8d5bhHAoovqRiV-O2mKQ);
+
+    }
+
+    75% {
+        background-image: url(https://blog.daraz.pk/wp-content/uploads/2023/10/Blog-copy-50-850x560.jpg);
+
+    }
+
+    100% {
+        background-image: url(https://i0.wp.com/theazb.com/wp-content/uploads/2021/11/Daraz-11-11.png?fit=1200%2C524&quality=100&strip=all&ssl=1);
+
+
+    }
+
+
+}
+
+.jav {
+
+    background-color: #fae1dd;
+}
+
+.jav {
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0px;
+
+
+
+}
+
+.cc a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.jav:hover {
+    background-color: #e8baa2;
+}
+
+.cc a:hover {
+    color: #0d0d0c;
+}
+
+.drz {
+    background-color: white;
+    box-shadow: 0px 0px 8px 1px #83807e;
+    text-align: center;
+}
+
+.drzu a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.saqu img {
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.saqu {
+
+    background-color: white;
+    box-shadow: 0px 0px 12px 2px #a29d9d;
+
+
+}
+
+.saqu1 {
+    margin-top: 22px;
+}
+
+.dj {
+    color: #625757;
+    margin-left: 85px;
+    margin-top: 70px;
+}
+
+.zulfi img {
+    width: 100%;
+}
+
+.zulfi {
+    background-color: white;
+padding-top: 30px;
+}
+
+.qar {
+    margin-top: 20px;
+    background-color: white;
+}
+
+
+
+  
+  
+  
+  
